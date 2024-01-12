@@ -1,0 +1,121 @@
+/* Core.module.css */
+
+/* Core Title */
+.core_title {
+  font-family: "Playball", cursive;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* Container styles for sign-up form */
+.core_signUp {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Text link styles */
+.core_text {
+  color: rgb(6, 153, 211);
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Header styles */
+.core_header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  z-index: 1;
+  justify-content: space-between;
+}
+
+/* Modal button styles */
+.core_btnModal {
+  background-color: transparent;
+  color: gray;
+  padding-top: 3px;
+  font-size: 32px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.core_btnModal.note {
+  display: block;
+}
+
+/* 新しいスタイル: activeTabが"post"の場合のスタイル */
+.core_btnModal.post {
+  display: block;
+}
+
+/* 新しいスタイル: activeTabが"note"でない、かつ"post"でない場合のスタイル */
+.core_btnModal.none {
+  display: none;
+}
+
+/* Logout section styles */
+.core_logout {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Posts section styles */
+.core_posts {
+  padding: 20px;
+}
+
+/* Loading spinner styles */
+.core_progress {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for the Now and Was buttons */
+.core_tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.core_tabButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  color: #333;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+
+  /* 初期状態ではボーダーなし */
+  border-bottom: 2px solid transparent;
+}
+
+.core_tabButton:hover,
+.core_tabButton.active {
+  color: rgb(6, 153, 211);
+  border-bottom: 2px solid rgb(6, 153, 211);
+}
+
+/* New Note button styles */
+.core_newNoteButton {
+  background-color: rgb(6, 153, 211);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgb(3, 121, 170);
+  }
+}

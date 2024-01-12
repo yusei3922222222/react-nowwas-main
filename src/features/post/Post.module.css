@@ -1,0 +1,91 @@
+/* Post.module.css */
+
+.post {
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post:hover {
+  transform: scale(1.02);
+}
+
+.post_header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.post_avatar {
+  margin-right: 12px;
+}
+
+.post_image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.post_text {
+  font-size: 16px;
+  padding: 16px;
+}
+
+.post_checkBox {
+  margin-right: 8px;
+}
+
+.post_avatarGroup {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  margin-left: -12px;
+}
+
+.post_comments {
+  padding: 16px;
+}
+
+.post_comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.post_comment p {
+  margin: 0;
+  margin-left: 8px;
+}
+
+.post_commentBox {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.post_input {
+  flex: 1;
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+.post_button {
+  background-color: #7869ff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.post_button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

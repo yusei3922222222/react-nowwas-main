@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+
+* {
+  margin: 0;
+  padding: 0; /* パディングもリセット */
+  box-sizing: border-box; /* ボックスモデルを変更して、要素の幅と高さが、ボーダーおよびパディングを含むようにする */
+}
+
+body {
+  font-family: 'Playball', cursive;
+}
+
+.app {
+  background-color: whitesmoke;
+  min-height: 100vh; /* ビューポートの高さいっぱいに広がるように */
+  display: flex;
+  flex-direction: column;
+}
+
+/* 他のスタイリングを追加 */

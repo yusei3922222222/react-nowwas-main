@@ -1,0 +1,40 @@
+/* Auth.module.css */
+
+/* Core Title */
+.auth_title {
+  font-family: "Playball", cursive;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* Error message styles */
+.auth_error {
+  color: #ff00ff;
+  text-align: center;
+  margin: 10px;
+}
+
+/* Container styles for sign-up form */
+.auth_signUp {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header image styles */
+.auth_headerImage {
+  object-fit: contain;
+}
+
+/* Text link styles */
+.auth_text {
+  color: rgb(6, 153, 211);
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Loading spinner styles */
+.auth_progress {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
